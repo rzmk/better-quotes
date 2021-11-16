@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+
+html {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	min-height: 100vh;
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	color: black;
+	font-family: "Patrick Hand", sans-serif;
+	font-weight: 700;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+h1 {
+	opacity: 0.75;
+}
+
+.quote-container {
+	width: auto;
+	max-width: 900px;
+	padding: 20px 30px;
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.4);
+	box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.quote-text {
+	font-size: 2.75rem;
+}
+
+.long-quote {
+	font-size: 2rem;
+}
+
+.fa-quote-left {
+	font-size: 4rem;
+}
+
+.quote-author {
+	margin-top: 15px;
+	font-size: 2rem;
+	font-weight: 400;
+	font-style: italic;
+}
+
+.button-container {
+	margin-top: 15px;
+	display: flex;
+	justify-content: space-between;
+}
+
+button {
+	cursor: pointer;
+	font-size: 1.2rem;
+	height: 2.5rem;
+	border: none;
+	border-radius: 10px;
+	color: white;
+	background: #333;
+	outline: none;
+	padding: 0.5rem 1.8rem;
+	box-shadow: 0 0.3rem rgba(121, 121, 121, 0.65);
+}
+
+.github-button {
+	position: fixed;
+	font-size: 1.5rem;
+	bottom: 2rem;
+	padding: 0.5rem 0.5rem;
+}
+
+button:hover {
+	filter: brightness(1.1);
+}
+
+button:active {
+	transform: translate(0, 0.3rem);
+	box-shadow: 0 0.1rem rgba(255, 255, 255, 0.65);
+}
+
+.twitter-button:hover {
+	color: #38a1f3;
+	box-shadow: 0 0 5px 0 #38a1f3 inset, 0 0 5px 4px #38a1f3;
+}
+
+.new-quote:hover {
+	box-shadow: 0 0 5px 0 #e73c7e inset, 0 0 5px 4px #e73c7e;
+}
+
+.github-button:hover {
+	box-shadow: 0 0 5px 0 #ccc inset, 0 0 5px 4px #ccc;
+}
+
+.fa-twitter {
+	font-size: 1.5rem;
+}
+
+/* Media Query: Tablet or Smaller */
+@media screen and (max-width: 1000px) {
+	.quote-container {
+		margin: 0 10px;
+	}
+
+	.quote-text {
+		font-size: 2.5rem;
+	}
+}
+
+/* Loader */
+.loader {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: conic-gradient(#0000 10%, #333);
+	-webkit-mask: radial-gradient(
+		farthest-side,
+		#0000 calc(100% - 8px),
+		#000 0
+	);
+	animation: s3 1s infinite linear;
+}
+@keyframes s3 {
+	to {
+		transform: rotate(1turn);
+	}
+}
