@@ -23,7 +23,7 @@
 -   Generates a random quote on page load and button click.
 -   Can tweet the current quote on button click.
 -   Reponsive for mobile devices.
--   A visual/functional upgrade from an old project [simple-quotes]("https://rzmk.github.io/simple-quotes/").
+-   A visual/functional upgrade from an old project [simple-quotes](https://rzmk.github.io/simple-quotes/).
 
 ## Credits
 
