@@ -1,5 +1,7 @@
-<a href="https://rzmk.github.io/better-quotes/">
-    <h1 align="center">better-quotes</h1>
+<a
+    href="https://rzmk.github.io/better-quotes/">
+    <h1
+        align="center">better-quotes</h1>
 </a>
 <h2
     align="center">A reponsive quote generator web app.</h2>
