@@ -27,6 +27,6 @@
 
 ## Credits
 
--   [Quotes API](https://type.fit/api "Type.fit API")
+-   [Quotes API](https://jacintodesign.github.io/quotes-api/data/quotes.json "Quotes API")
 -   Built based on the [ZeroToMastery Academy course on Javascript Web Projects](https://academy.zerotomastery.io/p/javascript-projects "ZTM Javascript Projects Course").
 -   The CSS gradient background is from [this Codepen](https://codepen.io/P1N2O/pen/pyBNzX "Pure CSS Gradient Background") by [Manuel Pinto](https://codepen.io/P1N2O "Manuel Pinto").
